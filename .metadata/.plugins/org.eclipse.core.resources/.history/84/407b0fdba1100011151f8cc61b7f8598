@@ -1,0 +1,8 @@
+package com.prac_annotationConfiguration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DemoConfiguration {
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.springmvcboot;
+
+public class Users {
+
+}

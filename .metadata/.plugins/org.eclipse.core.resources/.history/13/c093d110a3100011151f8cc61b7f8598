@@ -1,0 +1,18 @@
+package com.prac_annotationConfiguration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        ApplicationContext ioc =
+                new AnnotationConfigApplicationContext(DemoConfiguration.class);
+
+        Employee e = ioc.getBean(Employee.class);
+        
+
+        System.out.println(e);
+    }
+}

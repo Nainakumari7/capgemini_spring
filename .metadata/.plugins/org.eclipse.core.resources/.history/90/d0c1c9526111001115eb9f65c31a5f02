@@ -1,0 +1,23 @@
+package com.capgemini.main;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class JpaUtil {
+	
+	@PostConstruct
+	public void display() {
+		System.out.println("Display");
+	}
+	
+	
+//	@PostConstruct
+	@PreDestroy
+	public void print() {
+		System.out.println("Print");
+	}
+	
+
+}
