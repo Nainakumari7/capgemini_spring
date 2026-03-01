@@ -1,5 +1,0 @@
-package com.prac;
-
-public interface PayementService {
-    void processPayment(double amount);
-}

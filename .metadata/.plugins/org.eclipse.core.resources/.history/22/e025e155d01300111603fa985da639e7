@@ -1,7 +1,0 @@
-package com.capgemini.springmvcboot;
-
-public interface UsersJpaRepository extends JpaRepository<Users, String> {
-	
-	
-
-}
