@@ -1,0 +1,32 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+</head>All Employee Details</head>
+<body>
+<table>
+<th>
+<tr>
+<td>Name</td>
+<td>Email</td>
+<td>Admin</td>
+<td>Password</td>
+</tr>
+<c:forEach var="emp" items="${msg}">
+
+<tr>
+<td>${emp.name}</td>
+<td>${emp.email}</td>
+<td>${emp.salary}</td>
+<td>${emp.role}</td>
+<td>${emp.password}</td>
+
+
+
+
+
+</tr>
+</c:forEach>
+</th>
+</table>
+</body>
+</html>
